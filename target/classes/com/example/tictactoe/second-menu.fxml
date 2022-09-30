@@ -12,7 +12,7 @@
          <Font size="18.0" />
       </font>
    </Label>
-   <TextField fx:id="userName" layoutX="63.0" layoutY="140.0" prefHeight="25.0" prefWidth="144.0" promptText="Enter your username" />
+   <TextField fx:id="userName" layoutX="63.0" layoutY="140.0" onAction="#gameScene" prefHeight="25.0" prefWidth="144.0" promptText="Enter your username" />
    <Button layoutX="130.0" layoutY="305.0" mnemonicParsing="false" onAction="#firstMenu" text="Back" />
    <Button layoutX="207.0" layoutY="140.0" mnemonicParsing="false" onAction="#gameScene" text="OK" />
    <Button fx:id="sound" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#music" />
